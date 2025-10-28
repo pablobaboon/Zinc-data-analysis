@@ -10,5 +10,7 @@ end
 for i=1:length(I(:,1))
     P=P(P~=x2(I(i,2)));
 end 
-
+%This function gives you data coincident inside a confidence interval [e]. In the limit e->0, it just gives you equal values of 
+%x1 and x2
             
+
