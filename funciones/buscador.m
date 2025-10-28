@@ -12,5 +12,6 @@ for i=2:length(J)
 end
 v=find(y==max(y(J(length(J))+1:length(y))));
 xmax=[xmax,x(v)];
+%Gives you the local maximuns of a vector x
 
     
