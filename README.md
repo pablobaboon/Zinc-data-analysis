@@ -1,2 +1,2 @@
 # Zinc-data-analysis
-Code for analysing data obtained in a laboratory experiment. MatLab was used. 
+Data analysis project. The dataset is obtained by the laboratory equipment at Universidad Complutense de Madrid. We then proceed to do a simple analysis of the results using MATLAB 
