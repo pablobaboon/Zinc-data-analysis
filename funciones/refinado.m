@@ -19,6 +19,9 @@ function [z,X,P,I,zm]=refinado(sigma,x,y)
   if length(P)+length(y(I))~=length(y)
       disp ('Error en el codigo, revisar dimensiones')
   end
+
+  %Very simple refinement code, to clean and separate signal-noise. 
   s=std(P);
   z=s+mean(y);
   zm=s-mean(y);
+
